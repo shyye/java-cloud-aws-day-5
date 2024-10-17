@@ -41,7 +41,7 @@ public class OrderController {
         //Student name: shyye
         this.queueUrl = "https://sqs.eu-west-1.amazonaws.com/637423341661/shyyeOrderQueue";
         this.topicArn = "arn:aws:sns:eu-west-1:637423341661:shyyeOrderCreatedTopic";
-        this.eventBusName = "arn:aws:events:eu-west-1:637423341661:event-bus/shyyeCustomEventBus";
+        this.eventBusName = "shyyeCustomEventBus";
 
         this.objectMapper = new ObjectMapper();
     }
